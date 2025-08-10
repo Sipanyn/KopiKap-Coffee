@@ -10,7 +10,7 @@ function Favorite() {
     <>
       <Toaster position="top-right" />{" "}
       <Header title={"Favorites"} icon1={"back"} icon2={"beverage"} />
-      <div className="flex flex-col items-center justify-center min-h-dvh h-fit gap-4 w-[100%] max-w-[600px] left-0 right-0 m-auto p-3 overflow-y-scroll pt-[70px] pb-[110px] bg-gray-100">
+      <div className="no-scrollbar flex flex-col items-center justify-center min-h-dvh h-fit gap-4 w-[100%] max-w-[600px] left-0 right-0 m-auto p-3 overflow-y-scroll pt-[70px] pb-[110px] bg-gray-100">
         {allfavProducts === null || allfavProducts.length === 0 ? (
           <div className="flex flex-row  justify-center items-center gap-2.5 border border-gray-300 rounded-[10px] pt-1.5 pb-1.5 pl-3 pr-3 w-full">
             <svg className="size-7 text-gray-500">
@@ -23,7 +23,7 @@ function Favorite() {
             return (
               <div
                 key={item.id}
-                className="flex flex-col  justify-between items-center gap-2.5 border border-gray-300 rounded-[10px] pt-1.5 pb-1.5 pl-3 pr-3  w-full p-4"
+                className="no-scrollbar overflow-x-hidden flex flex-col  justify-between items-center gap-2.5 border border-gray-300 rounded-[10px] pt-1.5 pb-1.5 pl-3 pr-3  w-full p-4"
               >
                 {/* img + product */}
                 <div className="flex flex-row gap-3 items-center w-full">
