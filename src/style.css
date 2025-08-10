@@ -1,0 +1,41 @@
+@import "tailwindcss";
+body {
+  background-color: rgb(243, 244, 246);
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.active {
+  background-color: #1bae76;
+  color: white;
+}
+#detailContainer {
+  background-color: rgba(250, 250, 250, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addmessage {
+  position: fixed;
+  bottom: 10px;
+  z-index: 15;
+  background: green;
+  color: white;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
