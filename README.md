@@ -15,7 +15,6 @@ A sleek and modern coffee shop website built with Vite.
 - React Router
 - React Query
 - GitHub + Vercel
-- 
 ## 🌐 Demo live
 
 you can visit app by clicking link below:
