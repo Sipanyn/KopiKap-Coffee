@@ -1,0 +1,155 @@
+{
+  "AllProducts": {
+    "Cappuccino": [
+      {
+        "id": 1,
+        "name": "Cappuccino",
+        "type": "Classic",
+        "rate": 4.8,
+        "price": 2.5,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Cappuccino/pic1.png",
+        "count": 1
+      },
+      {
+        "id": 2,
+        "name": "Cappuccino",
+        "type": "Chiaro",
+        "rate": 3.8,
+        "price": 2.8,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Cappuccino/pic2.png",
+        "count": 1
+      },
+      {
+        "id": 3,
+        "name": "Cappuccino",
+        "type": "With Milk",
+        "rate": 4.2,
+        "price": 3,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Cappuccino/pic3.png",
+        "count": 1
+      },
+      {
+        "id": 4,
+        "name": "Cappuccino",
+        "type": "With Chocolate",
+        "rate": 4,
+        "price": 3.1,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Cappuccino/pic4.png",
+        "count": 1
+      }
+    ],
+    "Macchiato": [
+      {
+        "id": 5,
+        "name": "Macchiato",
+        "type": "Classic",
+        "rate": 4.8,
+        "price": 4.5,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Macchiato/pic1.png",
+        "count": 1
+      },
+      {
+        "id": 6,
+        "name": "Macchiato",
+        "type": "Chiaro",
+        "rate": 3.8,
+        "price": 4.8,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Macchiato/pic2.png",
+        "count": 1
+      },
+      {
+        "id": 7,
+        "name": "Macchiato",
+        "type": "With Milk",
+        "rate": 4.2,
+        "price": 3,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Macchiato/pic3.png",
+        "count": 1
+      },
+      {
+        "id": 8,
+        "name": "Macchiato",
+        "type": "Aisan",
+        "rate": 5,
+        "price": 4.1,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Macchiato/pic4.png",
+        "count": 1
+      }
+    ],
+    "Latte": [
+      {
+        "id": 9,
+        "name": "Latte",
+        "type": "Classic",
+        "rate": 4.8,
+        "price": 3.5,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Latte/pic1.png",
+        "count": 1
+      },
+      {
+        "id": 10,
+        "name": "Latte",
+        "type": "Ice",
+        "rate": 4.2,
+        "price": 2.5,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Latte/pic2.png",
+        "count": 1
+      },
+      {
+        "id": 11,
+        "name": "Latte",
+        "type": "Soda",
+        "rate": 5,
+        "price": 4.1,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Latte/pic3.png",
+        "count": 1
+      }
+    ],
+    "Decaf": [
+      {
+        "id": 12,
+        "name": "Decaf",
+        "type": "Classic",
+        "rate": 4.8,
+        "price": 2.9,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Decaf/pic4.png",
+        "count": 1
+      },
+      {
+        "id": 13,
+        "name": "Decaf",
+        "type": "With Milk",
+        "rate": 3.8,
+        "price": 4.8,
+        "added": false,
+        "fav": false,
+        "src": "https://coffeeproducts.liara.run/images/Decaf/pic2.png",
+        "count": 1
+      }
+    ]
+  }
+}
