@@ -5,7 +5,7 @@ function Footer() {
   const allfavProducts = useSelector((state) => state.coffee.favProducts);
   const addedProducts = useSelector((state) => state.coffee.addedProducts);
   return (
-    <div className="rounded-2xl fixed w-[90%] left-0 right-0 m-auto bottom-[10px] bg-white flex flex-row items-center justify-between sm:w-[600px] ">
+    <div className="rounded-2xl fixed w-[90%] left-0 right-0 m-auto bottom-[10px] bg-white flex flex-row items-center justify-between sm:w-[600px] scale-[0.9] sm:scale-100 ">
       {/* home */}
 
       <div className="rounded-2xl ">

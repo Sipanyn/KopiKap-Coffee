@@ -14,7 +14,9 @@ function NavBar({ setSelectNav }) {
                 setActiveIndex(i);
                 setSelectNav(item);
               }}
-              className={`item ${i === activeIndex ? "active" : ""}`}
+              className={`item ${
+                i === activeIndex ? "active" : ""
+              } scale-[0.7] sm:scale-100`}
               key={i}
             >
               <p>{item}</p>
