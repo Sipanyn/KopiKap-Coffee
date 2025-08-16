@@ -18,7 +18,7 @@ import { store, persistor } from "./components/Store";
 import { PersistGate } from "redux-persist/integration/react";
 const queryClient = new QueryClient();
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     { path: "/", element: <WellcomePage /> },
     { path: "start", element: <StartPage /> },
     {
